@@ -48,7 +48,7 @@ align-content: right
 -- ftd.image:
 src: https://www.codetogether.com/wp-content/uploads/2023/01/WorldYellow820.png
 width.fixed.px: 400
-height.fixed.px: 300
+height.fixed.px: 400
 
 -- end: ds.row
 
