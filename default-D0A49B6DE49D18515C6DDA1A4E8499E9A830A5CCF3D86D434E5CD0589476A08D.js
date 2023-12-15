@@ -4611,7 +4611,7 @@ window.ftd = ftd;
 
 ftd.toggle = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4628,7 +4628,7 @@ ftd.toggle = function (args) {
 }
 ftd.increment = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4645,7 +4645,7 @@ ftd.increment = function (args) {
 }
 ftd.increment_by = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4662,7 +4662,7 @@ ftd.increment_by = function (args) {
 }
 ftd.decrement = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4679,7 +4679,7 @@ ftd.decrement = function (args) {
 }
 ftd.decrement_by = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4696,7 +4696,7 @@ ftd.decrement_by = function (args) {
 }
 ftd.enable_light_mode = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4707,7 +4707,7 @@ ftd.enable_light_mode = function (args) {
 }
 ftd.enable_dark_mode = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4718,7 +4718,7 @@ ftd.enable_dark_mode = function (args) {
 }
 ftd.enable_system_mode = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4729,7 +4729,7 @@ ftd.enable_system_mode = function (args) {
 }
 ftd.set_bool = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4746,7 +4746,7 @@ ftd.set_bool = function (args) {
 }
 ftd.set_boolean = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4763,7 +4763,7 @@ ftd.set_boolean = function (args) {
 }
 ftd.set_string = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);
@@ -4780,7 +4780,7 @@ ftd.set_string = function (args) {
 }
 ftd.set_integer = function (args) {
   let __fastn_super_package_name__ = __fastn_package_name__;
-  __fastn_package_name__ = "nandhinidevie_github_io_code";
+  __fastn_package_name__ = "code";
   try {
     let __args__ = fastn_utils.getArgs({
     }, args);

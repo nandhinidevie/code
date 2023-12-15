@@ -1,40 +1,114 @@
--- ds.page: Welcome to doc-site
+-- import: fastn-community.github.io/design-system as ds
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ds.page-widths widths:
+regular.px: 1200
+narrow.px: 1000
+wide.px: 1600
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ds.page:
+widths: $widths
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- header:
 
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- hero:
 
 -- end: ds.page
+
+
+
+
+
+
+-- component hero:
+
+-- ds.section-row:
+inset: $ds.spaces.inset-tall.zero-medium
+
+-- ds.row:
+width: fill-container
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.heading-large: Synergy for teams. Insights to drive efficiency.
+
+-- ds.copy-regular:
+
+Elevate software development by combining deep insights and real-time metrics with unrivaled transparency and collaboration aids.
+
+-- end: ds.column
+
+-- end: ds.row
+
+
+-- ds.row:
+align-content: right
+
+-- ftd.image:
+src: https://www.codetogether.com/wp-content/uploads/2023/01/WorldYellow820.png
+width.fixed.px: 400
+height.fixed.px: 400
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: hero
+
+
+
+
+
+
+
+
+
+
+-- component header:
+
+-- ds.section-row:
+inset: $ds.spaces.inset-tall.zero-medium
+flush: full
+background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.horizontal-gap.extra-extra-large
+
+-- ds.row:
+
+-- ftd.image:
+src: https://www.codetogether.com/wp-content/uploads/2020/02/codetogether-full-logo.png
+width.fixed.px: 250
+
+-- end: ds.row
+
+-- ds.row:
+width: fill-container
+
+-- ds.phosphor-icon-button: Live
+icon: caret-down
+link: /
+icon-position: at-end
+
+-- ds.phosphor-icon-button: HQ
+icon: caret-down
+link: /
+icon-position: at-end
+
+-- ds.phosphor-icon-button: Company
+icon: caret-down
+link: /
+icon-position: at-end
+
+-- ds.header-link: Contact Us
+link: /
+
+-- ds.phosphor-icon-button: 
+icon: user-circle
+link: /
+
+-- end: ds.row
+
+
+-- end: ds.section-row
+
+-- end: header

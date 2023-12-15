@@ -1,6 +1,0 @@
-{
-    "framework": null,
-    "buildCommand": "fastn build --base=/",
-    "outputDirectory": ".build",
-    "installCommand": "sh -c \"$(curl -fsSL https://fastn.com/install.sh)\""
-}
