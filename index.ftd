@@ -17,8 +17,125 @@ widths: $widths
 
 -- efficiency:
 
+-- stats:
+
 
 -- end: ds.page
+
+
+
+
+
+
+
+-- component stats:
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.extra-large
+inset: $ds.spaces.inset-square.extra-large
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.small
+
+-- ds.copy-large:
+text-align: center
+color: $ds.colors.text-strong
+
+“CodeTogether is a really brilliant solution for ensemble coding …
+especially since it integrates into different IDEs simultaneously.”
+
+-- ds.copy-large:
+text-align: center  ;; not working
+
+Astrid Sawatzky Lead Developer, Thera-Pi
+
+-- end: ds.column
+
+
+-- ds.copy-large:
+
+On average, enterprises using CodeTogether HQ see:
+
+-- ds.row:
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-1
+width.fixed.percent: 40
+radius: $ds.radius.large
+
+-- ds.heading-hero: 8%
+color: blue
+text-align:center
+
+-- ds.copy-small: 
+color: $ds.colors.text
+
+efficiency increase after 3 months
+
+
+-- end: ds.container
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-1
+width.fixed.percent: 40
+radius: $ds.radius.large
+
+-- ds.heading-hero: 15-1
+color: blue
+text-align:center
+
+-- ds.copy-small: 
+color: $ds.colors.text
+
+year-one ROI for 250 developers
+
+
+-- end: ds.container
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-1
+width.fixed.percent: 40
+radius: $ds.radius.large
+
+-- ds.heading-hero: 12%
+color: blue
+text-align:center
+
+-- ds.copy-small: 
+color: $ds.colors.text
+
+increase in developer cohesion
+
+
+-- end: ds.container
+
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: stats
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,24 +144,21 @@ widths: $widths
 
 -- ds.section-column:
 outer-background.solid: white
-
--- ds.column:
+spacing: $ds.spaces.vertical-gap.small
+margin: $ds.spaces.vertical-gap.extra-large
+inset: $ds.spaces.inset-tall.zero-medium
 
 -- ds.heading-hero: ACTIONABLE INTEL FOR COMPANIES
-text-align: center
 color: blue
+text-align: center
 
--- ds.copy-large: 
-text-align: center ;; not working
+-- ds.copy-large:
+text-align: center
 
 Drive Operational Efficiency
 
--- end: ds.column
-
--- ds.column:
-
 -- ds.row:
-spacing: $ds.spaces.horizontal-gap.space-between
+spacing: $ds.spaces.horizontal-gap.extra-large
 
 -- ftd.image:
 src: https://www.codetogether.com/wp-content/uploads/2023/01/HappyManagerT.png
@@ -59,7 +173,6 @@ inset: $ds.spaces.inset-square.large
 background.solid: blue
 radius: $ds.radius.large
 
-
 -- ds.heading-small: Understand your workforce
 
 -- ds.copy-small: 
@@ -73,11 +186,11 @@ inset: $ds.spaces.inset-square.large
 background.solid: blue
 radius: $ds.radius.large
 
--- ds.heading-small: Understand your workforce
+-- ds.heading-small: Empower your developers
 
 -- ds.copy-small: 
 
-Get a clear picture of active efforts, project status, and work efficiency with our AI-powered collection engine.
+Drive enhanced productivity with robust collaborative aids and rich transparency into source creation.
 
 -- end: ds.container
 
@@ -86,11 +199,11 @@ inset: $ds.spaces.inset-square.large
 background.solid: blue
 radius: $ds.radius.large
 
--- ds.heading-small: Understand your workforce
+-- ds.heading-small: Increase team efficiency
 
 -- ds.copy-small: 
 
-Get a clear picture of active efforts, project status, and work efficiency with our AI-powered collection engine.
+Leverage actionable AI-driven insights and performance reports for informed project-level decisions and workforce alignment.
 
 -- end: ds.container
 
@@ -98,7 +211,6 @@ Get a clear picture of active efforts, project status, and work efficiency with 
 
 -- end: ds.row
 
--- end: ds.column
 
 
 -- end: ds.section-column
@@ -106,6 +218,12 @@ Get a clear picture of active efforts, project status, and work efficiency with 
 
 
 -- end: efficiency
+
+
+
+
+
+
 
 
 
