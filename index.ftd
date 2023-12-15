@@ -13,7 +13,128 @@ widths: $widths
 
 -- hero:
 
+-- companies:
+
+-- efficiency:
+
+
 -- end: ds.page
+
+
+
+
+-- component efficiency:
+
+-- ds.section-column:
+outer-background.solid: white
+
+-- ds.column:
+
+-- ds.heading-hero: ACTIONABLE INTEL FOR COMPANIES
+text-align: center
+color: blue
+
+-- ds.copy-large: 
+text-align: center ;; not working
+
+Drive Operational Efficiency
+
+-- end: ds.column
+
+-- ds.column:
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.space-between
+
+-- ftd.image:
+src: https://www.codetogether.com/wp-content/uploads/2023/01/HappyManagerT.png
+width.fixed.percent: 50
+align-self: start
+
+-- ds.column:
+width.fixed.percent: 50
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: blue
+radius: $ds.radius.large
+
+
+-- ds.heading-small: Understand your workforce
+
+-- ds.copy-small: 
+
+Get a clear picture of active efforts, project status, and work efficiency with our AI-powered collection engine.
+
+-- end: ds.container
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: blue
+radius: $ds.radius.large
+
+-- ds.heading-small: Understand your workforce
+
+-- ds.copy-small: 
+
+Get a clear picture of active efforts, project status, and work efficiency with our AI-powered collection engine.
+
+-- end: ds.container
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: blue
+radius: $ds.radius.large
+
+-- ds.heading-small: Understand your workforce
+
+-- ds.copy-small: 
+
+Get a clear picture of active efforts, project status, and work efficiency with our AI-powered collection engine.
+
+-- end: ds.container
+
+-- end: ds.column
+
+-- end: ds.row
+
+-- end: ds.column
+
+
+-- end: ds.section-column
+
+
+
+-- end: efficiency
+
+
+
+
+-- component companies:
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.medium
+margin: $ds.spaces.vertical-gap.extra-large
+
+-- ds.copy-large:
+
+These companies use CodeTogether to build development teams that thrive.
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.large
+
+-- ftd.image:
+src: https://www.codetogether.com/wp-content/uploads/2023/01/CTCustomerLogosBGLMST40.png
+width.fixed.px: 1300
+
+-- end: ds.row
+
+-- end: ds.section-column
+
+-- end: companies
+
+
+
 
 
 
